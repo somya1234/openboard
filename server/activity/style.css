@@ -1,0 +1,102 @@
+.toolbar{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.hamburger{
+    height: 90%;
+    width: 15%;
+    background-color: yellow;
+}
+.tool-panel{
+    height: 90%;
+    width: 80%;
+    background-color: lightcoral;
+    display: flex;
+    justify-content: center;
+}
+.tool{
+    height: 90%;
+    position: relative;
+}
+.tool-options{
+    position: absolute;
+    top: 75px;
+    left: -61px;
+    background: yellow;
+    height: 6rem;
+    width: 9rem;
+    display: none;
+}
+
+.tool-img{
+    height: 90%;
+}
+.slider{
+    height: 38%;
+    border: 1px solid;
+}
+.colors{
+    height: 62%;
+    background: gainsboro;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.color{
+    height: 63%;
+    width: 26%;
+    border-radius: 50%;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
+.show{
+    display: block;
+}
+.stickyPad{
+    height: 14rem;
+    width: 14rem;
+    top: 40vh;
+    left: 30vw;
+    border-radius: 6px;
+    position: absolute;
+}
+.nav-bar{
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 11px;
+    background-color: tomato;
+}
+.close,.minimize{
+    height: 46%;
+    width: 10%;
+    margin-right: 5px;
+    border-radius: 56%;
+}
+.close{
+    background: red;
+}
+.minimize{
+    background: green;
+}
+
+.textbox{
+    height: 80%;
+}
+.textbox textarea{
+    height: 100%;
+    width: 100%;
+}
+.upload-img{
+    height: 100%;
+    width: 100%;
+}
